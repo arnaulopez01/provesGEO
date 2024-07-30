@@ -1,0 +1,32 @@
+
+
+footer{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+#map { 
+    width: 100%;
+    height: 100vh; 
+}
+
+.espacio_arriba{
+    padding-top: 25px;
+}
+
+.dialog1{
+    border-radius: 30px;
+    border-color: black;
+    border-width: 1px;
+    height: 600px;
+}
+
+.dialog2{
+    border-radius: 30px;
+    border-color: black;
+    border-width: 1px;
+    height: 150px;
+}
