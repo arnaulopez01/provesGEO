@@ -188,15 +188,19 @@
                 
             })
     
-            var featureGroup = L.featureGroup([circle, user]).addTo(map)
+            var featureGroup = L.featureGroup([circle, user]);
+            
+            featureGroup.addTo(map);
 
-              n = 0;
+              var n = 0;
 
-              if( n = 0)
+                if(n === 0){
 
-              map.fitBounds(featureGroup.getBounds());
+                map.fitBounds(featureGroup.getBounds());
 
-              n = 1;
+                n = 1;
+                
+                }
           
         }
 
